@@ -53,9 +53,11 @@ export default function ContactSection() {
                     {/* Contact Info */}
                     <div>
                         <Image
-                            src="/images/scavenger.png"
+                            src="/images/logo.png"
                             alt="Logo"
                             className="w-40 mb-4"
+                            width={300}
+                            height={250}
                         />
 
                         <h3 className="text-xl font-bold mb-2">Contact Us</h3>

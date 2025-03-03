@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { motion } from 'framer-motion';
 import Link from 'next/link';
 import Image from 'next/image';
@@ -57,7 +57,7 @@ const Header = ({ destinationsRef, packagesRef, galleryRef, contactRef }) => {
             <nav className="relative z-10 flex justify-between items-center px-6 py-4 w-full">
                 <div className="flex-1 flex justify-center md:justify-start">
                     <Image
-                        src="/images/scavenger.png"
+                        src="/images/logo.png"
                         alt="Scavenger Exclusive Safaris"
                         width={200}
                         height={100}

@@ -43,7 +43,7 @@ const safariPackagesData = [
         duration: "3D/2N",
         capacity: "pax: ∞",
         location: "RIFT-VALLEY",
-        image: "/images/maasai-mara.jpg",
+        image: "/images/masai-mara.jpg",
         charges: [
             "Services of an English speaking driver guide",
             "2 nights Accommodation on Fb meal plan",
@@ -85,7 +85,7 @@ const safariPackagesData = [
         duration: "3D/2N",
         capacity: "pax: ∞",
         location: "TSAVO",
-        image: "/images/amboseli.jpg",
+        image: "/images/tsavo.jpg",
         charges: [
             "Services of an English/French speaking driver guide",
             "2 night Accommodation on Fb meal plan",
@@ -120,7 +120,7 @@ const safariPackagesData = [
         duration: "2D/1N",
         capacity: "pax: ∞",
         location: "COAST",
-        image: "/images/amboseli.jpg",
+        image: "/images/wasini.jpg",
         charges: [
             "Return transport from Mombasa/Diani",
             "Boat ride/Dolphin Watching",
@@ -161,7 +161,7 @@ const safariPackagesData = [
         duration: "D/N",
         capacity: "pax: ∞",
         location: "COAST",
-        image: "/images/amboseli.jpg",
+        image: "/images/tamarino.jpg",
         charges: [
             "Return transport from Hotel @20usd",
             "Welcome drink & 1 soft drink",
@@ -187,6 +187,120 @@ const safariPackagesData = [
                 date: "2025-02-14"
             }
         ]
+    },
+    {
+        id: "kasigau",
+        title: "MOUNT KASIGAU CAMPING",
+        duration: "2D/1N",
+        capacity: "pax: ∞",
+        location: "COAST",
+        image: "/images/kasigau.jpg",
+        charges: [
+            "Return transport from Mombasa/Diani",
+            "1 Bottle of Water",
+            "Park Entry Fee",
+            "Meals and Hiking to the Summit",
+            "Magnificent Sunrise"
+        ],
+        exclusions: [
+            "Personal items",
+            "Tips and gratuities",
+            "Travel insurance"
+        ],
+        rating: 4.5,
+        reviews: 0,
+        nonResidentPrice: "150",
+        residentPrice: "7,500",
+        userReviews: [
+            {
+                id: "review1",
+                rating: 5,
+                comment: "Romantic dinner with amazing views!",
+                username: "FoodieExplorer",
+                date: "2025-02-14"
+            }
+        ]
+    },
+
+    {
+        id: "east",
+        title: "TSAVO EAST GROUP JOINING",
+        duration: "D/N",
+        capacity: "pax: 8",
+        location: "TSAVO EAST",
+        image: "/images/tsavo2.jpg",
+        charges: [
+            "Return transport from Mombasa/Diani",
+            "1 Bottle of Water",
+            "Park Entry Fee",
+            "Buffet Lunch",
+            "Game Drives",
+            "Tour Guide Services"
+        ],
+        exclusions: [
+            "Personal items",
+            "Tips and gratuities",
+            "Minimum Number 8 Pax"
+        ],
+        rating: 4.5,
+        reviews: 0,
+        nonResidentPrice: "100",
+        residentPrice: "5,500",
+
+    },
+    {
+        id: "watamu",
+        title: "MINI DUBAI",
+        duration: "D/N",
+        capacity: "pax: 8",
+        location: "WATAMU",
+        image: "/images/watamu.jpg",
+        charges: [
+            "Return transport from Mombasa/Diani",
+            "1 Bottle of Water",
+            "Park Entry Fee",
+            "Lunch",
+            "Quad Bike",
+            "Sunset at Lich House"
+        ],
+        exclusions: [
+            "Personal items",
+            "Tips and gratuities",
+            "Minimum Number 8 PAX"
+        ],
+        rating: 4.5,
+        reviews: 0,
+        nonResidentPrice: "100",
+        residentPrice: "5,500",
+
+    },
+    {
+        id: "west",
+        title: "TSAVO WEST SALTLICK",
+        duration: "2D/1N",
+        capacity: "pax: 8",
+        location: "TSAVO WEST",
+        image: "/images/tsavo3.jpg",
+        charges: [
+            "Return transport from Mombasa/Diani",
+            "1 Bottle of Water",
+            "Park Entry Fee",
+            "FullBoard Meals",
+            "Game Drives",
+            "1 Night Accomodation",
+            "Safari Van services",
+            "Tour Guide Services"
+        ],
+        exclusions: [
+            "Personal items",
+            "Minimum number 8 Pax",
+            "Travel insurance"
+        ],
+        rating: 4.5,
+        reviews: 0,
+        nonResidentPrice: "200",
+        residentPrice: "15,500",
+
     },
 ];
 

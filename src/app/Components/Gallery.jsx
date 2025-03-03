@@ -17,44 +17,184 @@ const SAMPLE_MEDIA = [
     {
         id: 1,
         type: 'image',
-        src: '/sample-images/image1.jpg',
-        alt: 'Colorful abstract art',
+        src: '/images/gallery1.jpg',
+        alt: 'Scavenger Safaris',
         aspectRatio: ASPECT_RATIOS.INSTAGRAM_SQUARE,
     },
     {
         id: 2,
         type: 'video',
-        src: '/sample-videos/video1.mp4',
+        src: '/images/video1.mp4',
         aspectRatio: ASPECT_RATIOS.TIKTOK,
-        thumbnail: '/sample-images/thumbnail1.jpg',
+        thumbnail: '/images/thumbnail2.jpg',
     },
     {
         id: 3,
         type: 'image',
-        src: '/sample-images/image2.jpg',
-        alt: 'Ocean landscape',
+        src: '/images/gallery2.jpg',
+        alt: 'Epic Scenery',
         aspectRatio: ASPECT_RATIOS.INSTAGRAM_LANDSCAPE,
     },
     {
         id: 4,
         type: 'video',
-        src: '/sample-videos/video2.mp4',
+        src: '/images/video2.mp4',
         aspectRatio: ASPECT_RATIOS.WIDE,
-        thumbnail: '/sample-images/thumbnail2.jpg',
+        thumbnail: '/images/thumbnail2.jpg',
     },
     {
         id: 5,
         type: 'image',
-        src: '/sample-images/image3.jpg',
-        alt: 'City at night',
+        src: '/images/gallery3.jpg',
+        alt: 'Travellers in Fort Jesus',
         aspectRatio: ASPECT_RATIOS.INSTAGRAM_PORTRAIT,
     },
     {
         id: 6,
         type: 'image',
-        src: '/sample-images/image4.jpg',
-        alt: 'Mountain view',
+        src: '/images/gallery4.jpg',
+        alt: 'Bernand Jilo',
         aspectRatio: ASPECT_RATIOS.INSTAGRAM_SQUARE,
+    },
+    {
+        id: 7,
+        type: 'image',
+        src: '/images/gallery5.jpg',
+        alt: 'Giraffes in the Savannah',
+        aspectRatio: ASPECT_RATIOS.INSTAGRAM_SQUARE,
+    },
+    {
+        id: 8,
+        type: 'image',
+        src: '/images/gallery6.jpg',
+        alt: 'Herd of Elephants Chillin',
+        aspectRatio: ASPECT_RATIOS.INSTAGRAM_SQUARE,
+    },
+    {
+        id: 9,
+        type: 'image',
+        src: '/images/gallery8.jpg',
+        alt: 'Safari Tours',
+        aspectRatio: ASPECT_RATIOS.INSTAGRAM_SQUARE,
+    },
+    {
+        id: 10,
+        type: 'image',
+        src: '/images/gallery7.jpg',
+        alt: 'Safari Tours',
+        aspectRatio: ASPECT_RATIOS.INSTAGRAM_SQUARE,
+    },
+    {
+        id: 11,
+        type: 'image',
+        src: '/images/gallery9.jpg',
+        alt: 'Safari Tours',
+        aspectRatio: ASPECT_RATIOS.INSTAGRAM_SQUARE,
+    },
+    {
+        id: 12,
+        type: 'image',
+        src: '/images/gallery10.jpg',
+        alt: 'Safari Tours',
+        aspectRatio: ASPECT_RATIOS.INSTAGRAM_SQUARE,
+    },
+    {
+        id: 13,
+        type: 'image',
+        src: '/images/gallery11.jpg',
+        alt: 'Safari Tours',
+        aspectRatio: ASPECT_RATIOS.INSTAGRAM_SQUARE,
+    },
+    {
+        id: 14,
+        type: 'image',
+        src: '/images/gallery12.jpg',
+        alt: 'Safari Tours',
+        aspectRatio: ASPECT_RATIOS.INSTAGRAM_SQUARE,
+    },
+    {
+        id: 15,
+        type: 'image',
+        src: '/images/gallery13.jpg',
+        alt: 'Safari Tours',
+        aspectRatio: ASPECT_RATIOS.INSTAGRAM_SQUARE,
+    },
+    {
+        id: 16,
+        type: 'image',
+        src: '/images/gallery14.jpg',
+        alt: 'Safari Tours',
+        aspectRatio: ASPECT_RATIOS.INSTAGRAM_SQUARE,
+    },
+    {
+        id: 17,
+        type: 'image',
+        src: '/images/gallery15.jpg',
+        alt: 'Safari Tours',
+        aspectRatio: ASPECT_RATIOS.INSTAGRAM_SQUARE,
+    },
+    {
+        id: 18,
+        type: 'image',
+        src: '/images/gallery16.jpg',
+        alt: 'Safari Tours',
+        aspectRatio: ASPECT_RATIOS.INSTAGRAM_SQUARE,
+    },
+    {
+        id: 19,
+        type: 'image',
+        src: '/images/gallery17.jpg',
+        alt: 'Safari Tours',
+        aspectRatio: ASPECT_RATIOS.INSTAGRAM_SQUARE,
+    },
+    {
+        id: 20,
+        type: 'image',
+        src: '/images/gallery18.jpg',
+        alt: 'Safari Tours',
+        aspectRatio: ASPECT_RATIOS.INSTAGRAM_SQUARE,
+    },
+    {
+        id: 21,
+        type: 'video',
+        src: '/images/video3.mp4',
+        aspectRatio: ASPECT_RATIOS.TIKTOK,
+        thumbnail: '/images/thumbnail2.jpg',
+    },
+    {
+        id: 22,
+        type: 'video',
+        src: '/images/video4.mp4',
+        aspectRatio: ASPECT_RATIOS.TIKTOK,
+        thumbnail: '/images/thumbnail2.jpg',
+    },
+    {
+        id: 23,
+        type: 'video',
+        src: '/images/video5.mp4',
+        aspectRatio: ASPECT_RATIOS.TIKTOK,
+        thumbnail: '/images/thumbnail2.jpg',
+    },
+    {
+        id: 24,
+        type: 'video',
+        src: '/images/video6.mp4',
+        aspectRatio: ASPECT_RATIOS.TIKTOK,
+        thumbnail: '/images/thumbnail2.jpg',
+    },
+    {
+        id: 27,
+        type: 'video',
+        src: '/images/video7.mp4',
+        aspectRatio: ASPECT_RATIOS.TIKTOK,
+        thumbnail: '/images/thumbnail2.jpg',
+    },
+    {
+        id: 28,
+        type: 'video',
+        src: '/images/video8.mp4',
+        aspectRatio: ASPECT_RATIOS.TIKTOK,
+        thumbnail: '/images/thumbnail2.jpg',
     },
 ];
 
@@ -110,7 +250,7 @@ const MediaItem = ({ item, index }) => {
                     className={`object-cover transition-opacity duration-500 ${isLoaded ? 'opacity-100' : 'opacity-0'}`}
                     onLoad={() => setIsLoaded(true)}
                 />
-                <div className={`absolute inset-0 bg-gray-200 animate-pulse ${isLoaded ? 'opacity-0' : 'opacity-100'} transition-opacity duration-500`} />
+                <div className={`absolute inset-0 bg-gray-200  ${isLoaded ? 'opacity-0' : 'opacity-100'} transition-opacity duration-500`} />
             </div>
         );
     } else if (item.type === 'video') {
@@ -229,8 +369,8 @@ const MediaGallery = ({ media = SAMPLE_MEDIA }) => {
                     <button
                         onClick={() => setActiveFilter('all')}
                         className={`px-4 py-2 rounded-full text-sm font-medium transition-all duration-300 ${activeFilter === 'all'
-                                ? 'bg-purple-500 text-white shadow-md transform scale-105'
-                                : 'bg-gray-100 text-gray-700 hover:bg-gray-200 hover:scale-105'
+                            ? 'bg-purple-500 text-white shadow-md transform scale-105'
+                            : 'bg-gray-100 text-gray-700 hover:bg-gray-200 hover:scale-105'
                             }`}
                     >
                         All
@@ -238,8 +378,8 @@ const MediaGallery = ({ media = SAMPLE_MEDIA }) => {
                     <button
                         onClick={() => setActiveFilter('image')}
                         className={`px-4 py-2 rounded-full text-sm font-medium transition-all duration-300 ${activeFilter === 'image'
-                                ? 'bg-purple-500 text-white shadow-md transform scale-105'
-                                : 'bg-gray-100 text-gray-700 hover:bg-gray-200 hover:scale-105'
+                            ? 'bg-purple-500 text-white shadow-md transform scale-105'
+                            : 'bg-gray-100 text-gray-700 hover:bg-gray-200 hover:scale-105'
                             }`}
                     >
                         Images
@@ -247,8 +387,8 @@ const MediaGallery = ({ media = SAMPLE_MEDIA }) => {
                     <button
                         onClick={() => setActiveFilter('video')}
                         className={`px-4 py-2 rounded-full text-sm font-medium transition-all duration-300 ${activeFilter === 'video'
-                                ? 'bg-purple-500 text-white shadow-md transform scale-105'
-                                : 'bg-gray-100 text-gray-700 hover:bg-gray-200 hover:scale-105'
+                            ? 'bg-purple-500 text-white shadow-md transform scale-105'
+                            : 'bg-gray-100 text-gray-700 hover:bg-gray-200 hover:scale-105'
                             }`}
                     >
                         Videos
