@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { useState } from "react";
+import Image from 'next/image'
 
 export default function ContactSection() {
     const [formData, setFormData] = useState({
@@ -51,7 +52,12 @@ export default function ContactSection() {
                 <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12">
                     {/* Contact Info */}
                     <div>
-                        <img src="/images/scavenger.png" alt="Logo" className="w-40 mb-4" /> {/* Replace with actual logo */}
+                        <Image
+                            src="/images/scavenger.png"
+                            alt="Logo"
+                            className="w-40 mb-4"
+                        />
+
                         <h3 className="text-xl font-bold mb-2">Contact Us</h3>
                         <p className="text-gray-300">Feel free to contact and reach us!</p>
                         <div className="mt-4 space-y-2">

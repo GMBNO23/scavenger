@@ -358,10 +358,10 @@ export const SafariPackages: React.FC<SafariPackagesProps> = ({ packages: initia
                     <h2 className="text-5xl font-bold mb-8">CHECKOUT OUR PACKAGES</h2>
                     <p className="max-w-3xl mx-auto text-lg text-gray-300">
                         Explore our meticulously crafted packages designed to ignite your
-                        wanderlust and create unforgettable memories. Whether you're dreaming
+                        wanderlust and create unforgettable memories. Whether you&apos;re dreaming
                         of a thrilling safari adventure, a serene beach getaway, or an immersive
                         cultural experience, our tour company offers an array of packages tailored
-                        to suit every traveler's desires.
+                        to suit every traveler&apos;s desires.
                     </p>
                 </div>
 
